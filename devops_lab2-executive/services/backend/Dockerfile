@@ -34,7 +34,7 @@ WORKDIR /app
 # TODO: необходимо изменить переменную PATH. Почитайте за что она отвечает.
 # В переменную PATH необходимо вставить в начало путь до python
 # в окружении /app/.venv/
-ENV PATH = "/app/.venv/bin:$PATH"
+ENV PATH="/app/.venv/bin:${PATH}"
 
 
 
